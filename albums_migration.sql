@@ -2,6 +2,10 @@ use codeup_test_db;
 
 drop table if exists albums;
 
+
+
+# create an albums table with the following columns:
+
 -- id — auto-incrementing unsigned integer primary key
 -- artist — string for storing the recording artist name
 -- name — string for storing a record name
