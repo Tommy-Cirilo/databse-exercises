@@ -2,7 +2,7 @@ use employees;
 
 select *
 from employees
-where first_name in ('Irena' , 'Vidya' , 'Maya');
+where first_name in ('Irena', 'Vidya', 'Maya');
 
 
 
@@ -16,7 +16,8 @@ where (first_name = 'Irena'
 
 select *
 from employees
-where last_name like ('E%') or last_name like ('%e');
+where last_name like ('E%')
+   or last_name like ('%e');
 
 select *
 from employees
